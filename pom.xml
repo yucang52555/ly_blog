@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>cc.ryanc</groupId>
+	<groupId>com.lengyan</groupId>
 	<artifactId>lyblog</artifactId>
 	<version>latest</version>
 	<name>lyblog</name>
@@ -10,15 +10,6 @@
 	<description>
 		lyblog，一个基于SpringBoot的博客系统，最求轻快，易用，以内容为中心。
 	</description>
-
-	<developers>
-		<developer>
-			<id>ruibaby</id>
-			<name>Ryan Wang</name>
-			<email>i@ryanc.cc</email>
-			<url>https://ryanc.cc</url>
-		</developer>
-	</developers>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -43,7 +34,6 @@
 	</properties>
 
 	<dependencies>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -325,7 +315,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.lengyan.lyblog.Application</mainClass>
+                                    <mainClass>com.lengyan.lyblog.LyblogApplication</mainClass>
                                     <classpathPrefix>lib/</classpathPrefix>
                                     <addClasspath>true</addClasspath>
                                 </manifest>
