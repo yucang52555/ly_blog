@@ -1,30 +1,35 @@
-2018-12-09 21:29:45.845  WARN 12252 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/lengyan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/lengyan/.m2/repository/org/json/json/20160212/json-20160212.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2018-12-09 21:29:45.863  INFO 12252 --- [main] com.lengyan.lyblog.ApplicationTests      : Starting ApplicationTests on LAPTOP-5CV0S9OB with PID 12252 (started by lengyan in F:\kingkang\workspace\ly_blog\ly_blog)
-2018-12-09 21:29:45.864  INFO 12252 --- [main] com.lengyan.lyblog.ApplicationTests      : No active profile set, falling back to default profiles: default
-2018-12-09 21:29:46.861  INFO 12252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2018-12-09 21:29:47.013  INFO 12252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146ms. Found 11 repository interfaces.
-2018-12-09 21:29:47.515  INFO 12252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81d28fde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-12-09 21:29:47.836  INFO 12252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2018-12-09 21:29:48.135  INFO 12252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2018-12-09 21:29:48.306  INFO 12252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2018-12-14 15:08:46.567  INFO 4600 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : Starting LyblogApplication on LAPTOP-5CV0S9OB with PID 4600 (F:\kingkang\workspace\ly_blog\ly_blog\target\classes started by lengyan in F:\kingkang\workspace\ly_blog\ly_blog)
+2018-12-14 15:08:46.574  INFO 4600 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : No active profile set, falling back to default profiles: default
+2018-12-14 15:08:46.622  INFO 4600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-14 15:08:46.623  INFO 4600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-14 15:08:47.819  INFO 4600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 15:08:47.944  INFO 4600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118ms. Found 11 repository interfaces.
+2018-12-14 15:08:48.289  INFO 4600 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da14919b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 15:08:48.628  INFO 4600 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2018-12-14 15:08:48.644  INFO 4600 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2018-12-14 15:08:48.669  WARN 4600 --- [restartedMain] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-12-14 15:08:48.670  WARN 4600 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-12-14 15:08:48.696  INFO 4600 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-12-14 15:08:48.696  INFO 4600 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2073 ms
+2018-12-14 15:08:48.723  INFO 4600 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-14 15:08:48.727  INFO 4600 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-12-14 15:08:48.729  INFO 4600 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-14 15:08:48.909  INFO 4600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-14 15:08:49.471  INFO 4600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-14 15:08:49.550  INFO 4600 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-12-09 21:29:48.379  INFO 12252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2018-12-09 21:29:48.380  INFO 12252 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2018-12-09 21:29:48.522  INFO 12252 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2018-12-09 21:29:48.979  INFO 12252 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2018-12-09 21:29:50.744  INFO 12252 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2018-12-09 21:29:51.660  INFO 12252 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2018-12-09 21:29:52.205  WARN 12252 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2018-12-09 21:29:53.280  INFO 12252 --- [main] com.lengyan.lyblog.ApplicationTests      : Started ApplicationTests in 7.807 seconds (JVM running for 8.681)
-2018-12-09 21:29:53.786  INFO 12252 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2018-12-09 21:29:53.790  INFO 12252 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2018-12-09 21:29:53.802  INFO 12252 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-14 15:08:49.698  INFO 4600 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-14 15:08:49.700  INFO 4600 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-14 15:08:49.916  INFO 4600 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-14 15:08:50.274  INFO 4600 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-14 15:08:52.799  INFO 4600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-14 15:08:52.844  INFO 4600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-14 15:08:53.621  INFO 4600 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-14 15:08:54.371  WARN 4600 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-14 15:08:54.912  INFO 4600 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2018-12-14 15:08:54.915  INFO 4600 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : Started LyblogApplication in 8.972 seconds (JVM running for 10.544)
+2018-12-14 15:08:55.347  INFO 4600 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : ly_blog started at http://localhost:8090
+2018-12-14 15:09:42.254  INFO 4600 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 15:09:42.254  INFO 4600 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-14 15:09:42.260  INFO 4600 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
