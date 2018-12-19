@@ -1,11 +1,11 @@
-<#macro head title="" keywords="" description="">
+<#macro head title="" keywords="" description="个人博客,记录一下个人的工作经验、心路感悟">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="${description}">
-    <meta name="keyword" content="${keywords}">
+    <meta name="description" content="孺子集，个人博客,记录一下个人的工作经验、心路感悟！ ${description}">
+    <meta name="keyword" content="孺子集,孺子博客,个人博客 ${keywords}">
     <@verification></@verification>
     <@favicon></@favicon>
 
@@ -39,5 +39,15 @@
 
     <!-- ga & ba script hoook -->
     <script></script>
+    <!-- 百度统计 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?e64569433bee54682cc5895467f0b9e4";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 </#macro>
