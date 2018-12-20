@@ -9,6 +9,11 @@ server:
   servlet:
     session:
       timeout: 86400s
+
+jasypt:
+  encryptor:
+    password: lyblog
+
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
@@ -24,7 +29,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://47.244.9.82:3306/ly_blog?characterEncoding=utf8&useSSL=false
     username: root
-    password: hongfeng123456
+    password: ENC(g0m9sjWJzpj7tMHc43UqF04RqO+c25oh)
 
   h2:
     console:
@@ -58,5 +63,4 @@ spring:
     basename: i18n/messages
 logging:
   file: ./logs/log.log
-
 

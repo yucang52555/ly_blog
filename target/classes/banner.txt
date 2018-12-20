@@ -1,9 +1,0 @@
-${AnsiColor.WHITE}
-.__            ___.   .__
-|  | ___.__.   \_ |__ |  |   ____   ____
-|  |<   |  |    | __ \|  |  /  _ \ / ___\
-|  |_\___  |    | \_\ \  |_(  <_> ) /_/  >
-|____/ ____|____|___  /____/\____/\___  /
-     \/   /_____/   \/           /_____/
- ${AnsiColor.BRIGHT_YELLOW}
- ::: Spring-Boot ${spring-boot.version}     ::: Lyblog (version:${application.formatted-version})

@@ -1,0 +1,290 @@
+2018-12-20 15:41:47.134  WARN 4800 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/lengyan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/lengyan/.m2/repository/org/json/json/20160212/json-20160212.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2018-12-20 15:41:47.152  INFO 4800 --- [main] com.lengyan.lyblog.utils.test_jiami      : Starting test_jiami on LAPTOP-5CV0S9OB with PID 4800 (started by lengyan in F:\kingkang\workspace\ly_blog\ly_blog)
+2018-12-20 15:41:47.153  INFO 4800 --- [main] com.lengyan.lyblog.utils.test_jiami      : No active profile set, falling back to default profiles: default
+2018-12-20 15:41:48.223  INFO 4800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-20 15:41:48.441  INFO 4800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 204ms. Found 11 repository interfaces.
+2018-12-20 15:41:48.906  INFO 4800 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-12-20 15:41:48.982  INFO 4800 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-12-20 15:41:48.983  INFO 4800 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:41:48.983  INFO 4800 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:41:48.983  INFO 4800 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:41:48.984  INFO 4800 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-12-20 15:41:48.984  INFO 4800 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yaml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:41:48.984  INFO 4800 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource class path resource [application.yaml] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:41:49.135  INFO 4800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$64d22c4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-20 15:41:49.277  INFO 4800 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-12-20 15:41:49.281  INFO 4800 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-12-20 15:41:49.364  INFO 4800 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-12-20 15:41:49.377  INFO 4800 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-12-20 15:41:49.377  INFO 4800 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-12-20 15:41:49.377  INFO 4800 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-12-20 15:41:49.377  INFO 4800 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-12-20 15:41:49.377  INFO 4800 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-12-20 15:41:49.378  INFO 4800 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-12-20 15:41:49.388  INFO 4800 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-12-20 15:41:49.746  WARN 4800 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.datasource.password' to java.lang.String
+2018-12-20 15:41:49.753  INFO 4800 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 15:41:49.755 ERROR 4800 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.password' to java.lang.String:
+
+    Reason: Failed to bind properties under 'spring.datasource.password' to java.lang.String
+
+Action:
+
+Update your application's configuration
+
+2018-12-20 15:41:49.768 ERROR 4800 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@563e4951] to prepare test instance [com.lengyan.lyblog.utils.test_jiami@364b1061]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.datasource.password' to java.lang.String
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:767) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:508) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:307) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:853) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.datasource.password' to java.lang.String
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:767) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:508) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 44 common frames omitted
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.datasource.password' to java.lang.String
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:110) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:93) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:419) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1737) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:758) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 58 common frames omitted
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.datasource.password' to java.lang.String
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:249) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:225) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindBean$3(Binder.java:336) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:83) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:72) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:54) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.lambda$null$4(Binder.java:344) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_152]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359) ~[na:1.8.0_152]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[na:1.8.0_152]
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:1.8.0_152]
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464) ~[na:1.8.0_152]
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindBean$5(Binder.java:345) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:448) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder$Context.withBean(Binder.java:434) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder$Context.access$400(Binder.java:388) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bindBean(Binder.java:342) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:277) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:220) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:208) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:190) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:83) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:107) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	... 72 common frames omitted
+Caused by: com.ulisesbocchio.jasyptspringboot.exception.DecryptionException: Decryption of Properties failed,  make sure encryption/decryption passwords match
+	at com.ulisesbocchio.jasyptspringboot.resolver.DefaultPropertyResolver.resolvePropertyValue(DefaultPropertyResolver.java:37) ~[jasypt-spring-boot-2.0.0.jar:na]
+	at com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver.resolvePropertyValue(DefaultLazyPropertyResolver.java:41) ~[jasypt-spring-boot-2.0.0.jar:na]
+	at com.ulisesbocchio.jasyptspringboot.EncryptablePropertySource.getProperty(EncryptablePropertySource.java:16) ~[jasypt-spring-boot-2.0.0.jar:na]
+	at com.ulisesbocchio.jasyptspringboot.wrapper.EncryptableMapPropertySourceWrapper.getProperty(EncryptableMapPropertySourceWrapper.java:29) ~[jasypt-spring-boot-2.0.0.jar:na]
+	at org.springframework.boot.context.properties.source.SpringConfigurationPropertySource.find(SpringConfigurationPropertySource.java:117) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.source.SpringConfigurationPropertySource.find(SpringConfigurationPropertySource.java:106) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.source.SpringConfigurationPropertySource.getConfigurationProperty(SpringConfigurationPropertySource.java:88) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.source.SpringIterableConfigurationPropertySource.getConfigurationProperty(SpringIterableConfigurationPropertySource.java:72) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.findProperty(Binder.java:313) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:255) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:220) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	... 97 common frames omitted
+Caused by: org.jasypt.exceptions.EncryptionOperationNotPossibleException: null
+	at org.jasypt.encryption.pbe.StandardPBEByteEncryptor.decrypt(StandardPBEByteEncryptor.java:1055) ~[jasypt-1.9.2.jar:na]
+	at org.jasypt.encryption.pbe.StandardPBEStringEncryptor.decrypt(StandardPBEStringEncryptor.java:725) ~[jasypt-1.9.2.jar:na]
+	at org.jasypt.encryption.pbe.PooledPBEStringEncryptor.decrypt(PooledPBEStringEncryptor.java:498) ~[jasypt-1.9.2.jar:na]
+	at com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor.decrypt(DefaultLazyEncryptor.java:82) ~[jasypt-spring-boot-2.0.0.jar:na]
+	at com.ulisesbocchio.jasyptspringboot.resolver.DefaultPropertyResolver.resolvePropertyValue(DefaultPropertyResolver.java:35) ~[jasypt-spring-boot-2.0.0.jar:na]
+	... 107 common frames omitted
+
+2018-12-20 15:42:45.014  WARN 13244 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/lengyan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/lengyan/.m2/repository/org/json/json/20160212/json-20160212.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2018-12-20 15:42:45.033  INFO 13244 --- [main] com.lengyan.lyblog.utils.test_jiami      : Starting test_jiami on LAPTOP-5CV0S9OB with PID 13244 (started by lengyan in F:\kingkang\workspace\ly_blog\ly_blog)
+2018-12-20 15:42:45.034  INFO 13244 --- [main] com.lengyan.lyblog.utils.test_jiami      : No active profile set, falling back to default profiles: default
+2018-12-20 15:42:46.220  INFO 13244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-20 15:42:46.394  INFO 13244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 163ms. Found 11 repository interfaces.
+2018-12-20 15:42:46.834  INFO 13244 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-12-20 15:42:46.903  INFO 13244 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-12-20 15:42:46.904  INFO 13244 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:42:46.904  INFO 13244 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:42:46.904  INFO 13244 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:42:46.904  INFO 13244 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-12-20 15:42:46.904  INFO 13244 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yaml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:42:46.905  INFO 13244 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource class path resource [application.yaml] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:42:47.036  INFO 13244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c52211a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-20 15:42:47.184  INFO 13244 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-12-20 15:42:47.186  INFO 13244 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-12-20 15:42:47.436  INFO 13244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-20 15:42:47.824  INFO 13244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-20 15:42:47.925  INFO 13244 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-20 15:42:48.057  INFO 13244 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-20 15:42:48.058  INFO 13244 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-20 15:42:48.240  INFO 13244 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-20 15:42:48.758  INFO 13244 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-20 15:42:50.858  INFO 13244 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-20 15:42:52.006  INFO 13244 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-20 15:42:52.704  WARN 13244 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-20 15:42:54.303  INFO 13244 --- [main] com.lengyan.lyblog.utils.test_jiami      : Started test_jiami in 9.913 seconds (JVM running for 11.454)
+2018-12-20 15:42:54.844  INFO 13244 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-12-20 15:42:54.856  INFO 13244 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-12-20 15:42:54.857  INFO 13244 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-12-20 15:42:54.857  INFO 13244 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-12-20 15:42:54.857  INFO 13244 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-12-20 15:42:54.857  INFO 13244 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-12-20 15:42:54.857  INFO 13244 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-12-20 15:42:54.858  INFO 13244 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-12-20 15:42:55.269  INFO 13244 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-20 15:42:55.274  INFO 13244 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-20 15:42:55.287  INFO 13244 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-20 15:43:36.969  INFO 18944 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : Starting LyblogApplication on LAPTOP-5CV0S9OB with PID 18944 (F:\kingkang\workspace\ly_blog\ly_blog\target\classes started by lengyan in F:\kingkang\workspace\ly_blog\ly_blog)
+2018-12-20 15:43:36.972  INFO 18944 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : No active profile set, falling back to default profiles: default
+2018-12-20 15:43:37.007  INFO 18944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-20 15:43:37.007  INFO 18944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-20 15:43:37.838  INFO 18944 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-20 15:43:37.996  INFO 18944 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151ms. Found 11 repository interfaces.
+2018-12-20 15:43:38.347  INFO 18944 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-12-20 15:43:38.394  INFO 18944 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-12-20 15:43:38.395  INFO 18944 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-12-20 15:43:38.395  INFO 18944 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-12-20 15:43:38.395  INFO 18944 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:43:38.396  INFO 18944 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:43:38.396  INFO 18944 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-12-20 15:43:38.396  INFO 18944 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yaml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:43:38.396  INFO 18944 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:43:38.396  INFO 18944 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource class path resource [application.yaml] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-20 15:43:38.479  INFO 18944 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$471e9cff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-20 15:43:38.532  INFO 18944 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-12-20 15:43:38.534  INFO 18944 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-12-20 15:43:38.865  INFO 18944 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2018-12-20 15:43:38.881  INFO 18944 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2018-12-20 15:43:38.909  WARN 18944 --- [restartedMain] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-12-20 15:43:38.910  WARN 18944 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-12-20 15:43:38.934  INFO 18944 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-12-20 15:43:38.935  INFO 18944 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1928 ms
+2018-12-20 15:43:38.961  INFO 18944 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-20 15:43:38.963  INFO 18944 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-12-20 15:43:38.965  INFO 18944 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-20 15:43:39.025  INFO 18944 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-12-20 15:43:39.031  INFO 18944 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-12-20 15:43:39.031  INFO 18944 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-12-20 15:43:39.031  INFO 18944 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-12-20 15:43:39.031  INFO 18944 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-12-20 15:43:39.031  INFO 18944 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-12-20 15:43:39.031  INFO 18944 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-12-20 15:43:39.032  INFO 18944 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-12-20 15:43:39.486  INFO 18944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-20 15:43:39.843  INFO 18944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-20 15:43:39.893  INFO 18944 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-20 15:43:39.953  INFO 18944 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-20 15:43:39.954  INFO 18944 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-20 15:43:40.079  INFO 18944 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-20 15:43:40.341  INFO 18944 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-20 15:43:41.935  INFO 18944 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-20 15:43:41.985  WARN 18944 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-12-20 15:43:42.681  INFO 18944 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-20 15:43:43.138  WARN 18944 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-20 15:43:43.961  INFO 18944 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2018-12-20 15:43:43.964  INFO 18944 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : Started LyblogApplication in 7.569 seconds (JVM running for 8.869)
+2018-12-20 15:43:44.193  INFO 18944 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : ly_blog started at http://localhost:8090
+2018-12-20 15:44:03.032  INFO 18944 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-20 15:44:03.032  INFO 18944 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-20 15:44:03.040  INFO 18944 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
