@@ -20,6 +20,24 @@
     <link rel="stylesheet" href="/anatole/source/css/blog_basic.min.css?version=88107691fe">
     <link href="/anatole/source/css/style.min.css" type="text/css" rel="stylesheet" />
     <link rel="alternate" type="application/rss+xml" title="atom 1.0" href="/feed.xml">
+    <!-- 百度统计 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?e64569433bee54682cc5895467f0b9e4";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <!-- google 广告-->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-6488119633221249",
+            enable_page_level_ads: true
+        });
+    </script>
     <style>
         <#if options.anatole_style_post_title_lower?default("true") == "false">
         .post .post-title h3 {
