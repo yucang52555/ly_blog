@@ -15,7 +15,7 @@
             </li>
         </div>
         <div class="avatar">
-            <img src="${options.anatole_style_right_icon?default("/anatole/source/images/logo.png")}" />
+            <img src="${options.anatole_style_right_icon?default("/anatole/source/images/favicon-ruziji.ico")}" />
         </div>
     </div>
 </div>

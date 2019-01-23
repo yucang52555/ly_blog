@@ -163,3 +163,113 @@
 2019-01-23 10:20:39.059  INFO 3928 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-01-23 10:20:39.059  INFO 3928 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-01-23 10:20:39.066  INFO 3928 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-01-23 10:28:31.076  INFO 14012 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : Starting LyblogApplication on LAPTOP-5CV0S9OB with PID 14012 (F:\kingkang\workspace\ly_blog\ly_blog\target\classes started by lengyan in F:\kingkang\workspace\ly_blog\ly_blog)
+2019-01-23 10:28:31.080  INFO 14012 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : No active profile set, falling back to default profiles: default
+2019-01-23 10:28:31.119  INFO 14012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-23 10:28:31.120  INFO 14012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-23 10:28:31.960  INFO 14012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-23 10:28:32.079  INFO 14012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112ms. Found 11 repository interfaces.
+2019-01-23 10:28:32.338  INFO 14012 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2019-01-23 10:28:32.417  INFO 14012 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-01-23 10:28:32.418  INFO 14012 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-01-23 10:28:32.418  INFO 14012 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-01-23 10:28:32.419  INFO 14012 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-01-23 10:28:32.419  INFO 14012 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-01-23 10:28:32.419  INFO 14012 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-01-23 10:28:32.420  INFO 14012 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yaml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-01-23 10:28:32.420  INFO 14012 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-01-23 10:28:32.420  INFO 14012 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource class path resource [application.yaml] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2019-01-23 10:28:32.503  INFO 14012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac814f87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-23 10:28:32.560  INFO 14012 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-01-23 10:28:32.562  INFO 14012 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-01-23 10:28:32.872  INFO 14012 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2019-01-23 10:28:32.887  INFO 14012 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2019-01-23 10:28:32.915  WARN 14012 --- [restartedMain] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2019-01-23 10:28:32.916  WARN 14012 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-01-23 10:28:32.940  INFO 14012 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-01-23 10:28:32.941  INFO 14012 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1821 ms
+2019-01-23 10:28:32.966  INFO 14012 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-01-23 10:28:32.968  INFO 14012 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2019-01-23 10:28:32.970  INFO 14012 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-23 10:28:33.022  INFO 14012 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2019-01-23 10:28:33.028  INFO 14012 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2019-01-23 10:28:33.029  INFO 14012 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2019-01-23 10:28:33.029  INFO 14012 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2019-01-23 10:28:33.029  INFO 14012 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2019-01-23 10:28:33.029  INFO 14012 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2019-01-23 10:28:33.029  INFO 14012 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2019-01-23 10:28:33.030  INFO 14012 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2019-01-23 10:28:33.433  INFO 14012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-23 10:28:34.081  INFO 14012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-23 10:28:34.129  INFO 14012 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-23 10:28:34.198  INFO 14012 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-23 10:28:34.200  INFO 14012 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-23 10:28:34.416  INFO 14012 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-23 10:28:34.693  INFO 14012 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-23 10:28:37.328  INFO 14012 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-23 10:28:37.373  INFO 14012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-23 10:28:38.065  INFO 14012 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-23 10:28:38.811  WARN 14012 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-23 10:28:39.594  INFO 14012 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2019-01-23 10:28:39.597  INFO 14012 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : Started LyblogApplication in 9.037 seconds (JVM running for 10.284)
+2019-01-23 10:28:40.070  INFO 14012 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : ly_blog started at http://localhost:8090
+2019-01-23 10:28:52.342  INFO 14012 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-23 10:28:52.342  INFO 14012 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-23 10:28:52.350  INFO 14012 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-01-23 10:41:24.855  INFO 23544 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : Starting LyblogApplication on LAPTOP-5CV0S9OB with PID 23544 (F:\kingkang\workspace\ly_blog\ly_blog\target\classes started by lengyan in F:\kingkang\workspace\ly_blog\ly_blog)
+2019-01-23 10:41:24.857  INFO 23544 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : No active profile set, falling back to default profiles: default
+2019-01-23 10:41:24.899  INFO 23544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-23 10:41:24.900  INFO 23544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-23 10:41:25.781  INFO 23544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-23 10:41:25.901  INFO 23544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114ms. Found 11 repository interfaces.
+2019-01-23 10:41:26.190  INFO 23544 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2019-01-23 10:41:26.232  INFO 23544 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-01-23 10:41:26.233  INFO 23544 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-01-23 10:41:26.233  INFO 23544 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-01-23 10:41:26.234  INFO 23544 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-01-23 10:41:26.234  INFO 23544 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-01-23 10:41:26.234  INFO 23544 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-01-23 10:41:26.234  INFO 23544 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yaml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-01-23 10:41:26.234  INFO 23544 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-01-23 10:41:26.234  INFO 23544 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource class path resource [application.yaml] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2019-01-23 10:41:26.316  INFO 23544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eff48dfc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-23 10:41:26.371  INFO 23544 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-01-23 10:41:26.373  INFO 23544 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-01-23 10:41:26.697  INFO 23544 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2019-01-23 10:41:26.714  INFO 23544 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2019-01-23 10:41:26.753  WARN 23544 --- [restartedMain] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2019-01-23 10:41:26.753  WARN 23544 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-01-23 10:41:26.784  INFO 23544 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-01-23 10:41:26.785  INFO 23544 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1885 ms
+2019-01-23 10:41:26.814  INFO 23544 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-01-23 10:41:26.818  INFO 23544 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2019-01-23 10:41:26.820  INFO 23544 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-23 10:41:26.888  INFO 23544 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2019-01-23 10:41:26.896  INFO 23544 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2019-01-23 10:41:26.896  INFO 23544 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2019-01-23 10:41:26.896  INFO 23544 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2019-01-23 10:41:26.897  INFO 23544 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2019-01-23 10:41:26.897  INFO 23544 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2019-01-23 10:41:26.897  INFO 23544 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2019-01-23 10:41:26.898  INFO 23544 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2019-01-23 10:41:27.329  INFO 23544 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-23 10:41:27.977  INFO 23544 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-23 10:41:28.025  INFO 23544 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-23 10:41:28.091  INFO 23544 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-23 10:41:28.092  INFO 23544 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-23 10:41:28.214  INFO 23544 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-23 10:41:28.421  INFO 23544 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-23 10:41:30.883  INFO 23544 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-23 10:41:30.950  INFO 23544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-23 10:41:31.631  INFO 23544 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-23 10:41:32.359  WARN 23544 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-23 10:41:33.139  INFO 23544 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2019-01-23 10:41:33.142  INFO 23544 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : Started LyblogApplication in 8.767 seconds (JVM running for 9.906)
+2019-01-23 10:41:33.586  INFO 23544 --- [restartedMain] com.lengyan.lyblog.LyblogApplication     : ly_blog started at http://localhost:8090
+2019-01-23 10:42:52.934  INFO 23544 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-23 10:42:52.934  INFO 23544 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-23 10:42:52.943  INFO 23544 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
