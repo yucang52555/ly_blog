@@ -182,7 +182,7 @@
                         <div class="box box-widget widget-user-2">
                             <div class="widget-user-header bg-blue">
                                 <div class="widget-user-image">
-                                    <img class="img-circle" src="/anatole/source/images/logo@2x.png" alt="User Avatar">
+                                    <img class="img-circle" src="/anatole/source/images/logo-ruziji.png" alt="User Avatar">
                                 </div>
                                 <h3 class="widget-user-username">CAICAI</h3>
                                 <h5 class="widget-user-desc">A other farbox theme</h5>
