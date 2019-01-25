@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="孺子集，个人博客,记录一下个人的工作经验、心路感悟！ ${description}">
     <meta name="keyword" content="孺子集,孺子博客,个人博客 ${keywords}">
+    <meta name="baidu-site-verification" content="GOpy0NK9kt" />
     <@verification></@verification>
     <@favicon></@favicon>
 
