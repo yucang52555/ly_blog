@@ -127,56 +127,56 @@
                                 </a>
                             </li>
                             </#if>
-                            <#if options.hux_sns_twitter??>
+                            <#--<#if options.hux_sns_twitter??>-->
                             <li>
-                                <a href="https://twitter.com/${options.hux_sns_twitter}">
+                                <a href="http://www.ruzishici.top/">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
-                            </#if>
-                            <#if options.hux_sns_zhihu??>
+                            <#--</#if>-->
+                            <#--<#if options.hux_sns_zhihu??>-->
+                            <#--<li>-->
+                                <#--<a target="_blank" href="https://www.zhihu.com/people/${options.hux_sns_zhihu}">-->
+                                    <#--<span class="fa-stack fa-lg">-->
+                                        <#--<i class="fa fa-circle fa-stack-2x"></i>-->
+                                        <#--<i class="fa  fa-stack-1x fa-inverse">知</i>-->
+                                    <#--</span>-->
+                                <#--</a>-->
+                            <#--</li>-->
+                            <#--</#if>-->
+                            <#--<#if options.hux_sns_weibo??>-->
+                            <#--<li>-->
+                                <#--<a target="_blank" href="http://weibo.com/${options.hux_sns_weibo}">-->
+                                    <#--<span class="fa-stack fa-lg">-->
+                                        <#--<i class="fa fa-circle fa-stack-2x"></i>-->
+                                        <#--<i class="fa fa-weibo fa-stack-1x fa-inverse"></i>-->
+                                    <#--</span>-->
+                                <#--</a>-->
+                            <#--</li>-->
+                            <#--</#if>-->
+                            <#--<#if options.hux_sns_facebook??>-->
+                            <#--<li>-->
+                                <#--<a target="_blank" href="https://www.facebook.com/${options.hux_sns_facebook}">-->
+                                    <#--<span class="fa-stack fa-lg">-->
+                                        <#--<i class="fa fa-circle fa-stack-2x"></i>-->
+                                        <#--<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>-->
+                                    <#--</span>-->
+                                <#--</a>-->
+                            <#--</li>-->
+                            <#--</#if>-->
+                            <#--<#if options.hux_sns_github??>-->
                             <li>
-                                <a target="_blank" href="https://www.zhihu.com/people/${options.hux_sns_zhihu}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa  fa-stack-1x fa-inverse">知</i>
-                                    </span>
-                                </a>
-                            </li>
-                            </#if>
-                            <#if options.hux_sns_weibo??>
-                            <li>
-                                <a target="_blank" href="http://weibo.com/${options.hux_sns_weibo}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            </#if>
-                            <#if options.hux_sns_facebook??>
-                            <li>
-                                <a target="_blank" href="https://www.facebook.com/${options.hux_sns_facebook}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            </#if>
-                            <#if options.hux_sns_github??>
-                            <li>
-                                <a target="_blank" href="https://github.com/${options.hux_sns_github}">
+                                <a target="_blank" href="https://github.com/yucang52555/ly_blog">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
-                            </#if>
+                            <#--</#if>-->
                         </ul>
                     </div>
                 </section>
