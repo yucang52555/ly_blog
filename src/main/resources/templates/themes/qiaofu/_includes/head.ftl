@@ -1,5 +1,7 @@
 <#macro head title="" keywords="" description="个人博客,记录一下个人的工作经验、心路感悟">
 <head>
+    <!-- google站点优化 -->
+    <meta name="google-site-verification" content="UEFgToH89wM9G2Z9hYypotBGJtFMMgYo85N6KmI60cc" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content=""/>
