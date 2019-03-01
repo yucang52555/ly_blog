@@ -14,6 +14,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import springfox.documentation.annotations.ApiIgnore;
 
 import java.util.List;
 
@@ -26,6 +27,7 @@ import java.util.List;
  * @date : 2018/4/26
  */
 @Controller
+@ApiIgnore
 public class FrontOthersController {
 
     @Autowired

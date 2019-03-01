@@ -22,6 +22,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
+import springfox.documentation.annotations.ApiIgnore;
 
 import java.util.List;
 
@@ -34,6 +35,7 @@ import java.util.List;
  * @date : 2018/4/26
  */
 @Controller
+@ApiIgnore
 public class FrontPageController extends BaseController {
 
     @Autowired

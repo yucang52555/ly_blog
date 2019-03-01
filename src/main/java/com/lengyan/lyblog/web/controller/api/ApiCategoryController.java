@@ -4,6 +4,7 @@ import com.lengyan.lyblog.model.domain.Category;
 import com.lengyan.lyblog.model.dto.JsonResult;
 import com.lengyan.lyblog.model.enums.ResponseStatusEnum;
 import com.lengyan.lyblog.service.CategoryService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,6 +23,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/categories")
+@Api("API-文章分类API")
 public class ApiCategoryController {
 
     @Autowired

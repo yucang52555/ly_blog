@@ -5,6 +5,7 @@ import com.lengyan.lyblog.model.dto.JsonResult;
 import com.lengyan.lyblog.model.enums.PostTypeEnum;
 import com.lengyan.lyblog.model.enums.ResponseStatusEnum;
 import com.lengyan.lyblog.service.PostService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(value = "/api/pages")
+@Api("API-页面控制器")
 public class ApiPageController {
 
     @Autowired

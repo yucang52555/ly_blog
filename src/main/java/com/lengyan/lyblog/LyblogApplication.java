@@ -2,9 +2,11 @@ package com.lengyan.lyblog;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.ApplicationContext;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * <pre>
@@ -17,6 +19,7 @@ import org.springframework.context.ApplicationContext;
 @Slf4j
 @SpringBootApplication
 @EnableCaching
+@EnableAutoConfiguration
 public class LyblogApplication {
     public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(LyblogApplication.class, args);

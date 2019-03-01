@@ -4,6 +4,7 @@ import com.lengyan.lyblog.model.domain.Link;
 import com.lengyan.lyblog.model.dto.JsonResult;
 import com.lengyan.lyblog.model.enums.ResponseStatusEnum;
 import com.lengyan.lyblog.service.LinkService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +22,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/links")
+@Api("API-友情链接控制器")
 public class ApiLinkController {
 
     @Autowired

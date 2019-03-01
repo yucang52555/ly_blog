@@ -9,6 +9,7 @@ import com.lengyan.lyblog.model.enums.PostTypeEnum;
 import com.lengyan.lyblog.model.enums.ResponseStatusEnum;
 import com.lengyan.lyblog.service.PostService;
 import cn.hutool.core.util.StrUtil;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -31,6 +32,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/posts")
+@Api("API-文章控制器")
 public class ApiPostController {
 
     @Autowired

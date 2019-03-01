@@ -13,6 +13,7 @@ import com.lengyan.lyblog.web.controller.core.BaseController;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.PageUtil;
 import cn.hutool.core.util.StrUtil;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -25,6 +26,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import springfox.documentation.annotations.ApiIgnore;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -41,6 +43,7 @@ import java.util.List;
 @Slf4j
 @Controller
 @RequestMapping(value = "/archives")
+@ApiIgnore
 public class FrontArchiveController extends BaseController {
 
     @Autowired

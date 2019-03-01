@@ -4,6 +4,7 @@ import com.lengyan.lyblog.model.domain.Gallery;
 import com.lengyan.lyblog.model.dto.JsonResult;
 import com.lengyan.lyblog.model.enums.ResponseStatusEnum;
 import com.lengyan.lyblog.service.GalleryService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,6 +24,7 @@ import java.util.Optional;
  */
 @RestController
 @RequestMapping(value = "/api/galleries")
+@Api("API-图库控制器")
 public class ApiGalleryController {
 
     @Autowired

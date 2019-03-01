@@ -9,6 +9,7 @@ import com.lengyan.lyblog.service.PostService;
 import com.lengyan.lyblog.web.controller.core.BaseController;
 import cn.hutool.core.util.PageUtil;
 import cn.hutool.core.util.StrUtil;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -19,6 +20,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import springfox.documentation.annotations.ApiIgnore;
 
 import java.util.List;
 
@@ -32,6 +34,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping(value = "categories")
+@ApiIgnore
 public class FrontCategoryController extends BaseController {
 
     @Autowired

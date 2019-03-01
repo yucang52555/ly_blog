@@ -1,6 +1,7 @@
 package com.lengyan.lyblog.web.controller.api;
 
 import com.lengyan.lyblog.service.CommentService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(value = "/api/comments")
+@Api("API-评论控制器")
 public class ApiCommentController {
 
     @Autowired

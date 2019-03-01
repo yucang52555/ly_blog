@@ -4,6 +4,7 @@ import com.lengyan.lyblog.model.domain.Menu;
 import com.lengyan.lyblog.model.dto.JsonResult;
 import com.lengyan.lyblog.model.enums.ResponseStatusEnum;
 import com.lengyan.lyblog.service.MenuService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +22,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/menus")
+@Api("API-菜单控制器")
 public class ApiMenuController {
 
     @Autowired

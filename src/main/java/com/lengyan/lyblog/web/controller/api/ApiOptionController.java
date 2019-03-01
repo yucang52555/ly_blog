@@ -4,6 +4,7 @@ import com.lengyan.lyblog.model.dto.JsonResult;
 import com.lengyan.lyblog.model.enums.BlogPropertiesEnum;
 import com.lengyan.lyblog.model.enums.ResponseStatusEnum;
 import com.lengyan.lyblog.service.OptionsService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,6 +23,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping(value = "/api/options")
+@Api("API-系统设置控制器")
 public class ApiOptionController {
 
     @Autowired

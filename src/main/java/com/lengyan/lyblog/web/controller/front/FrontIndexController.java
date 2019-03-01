@@ -7,6 +7,8 @@ import com.lengyan.lyblog.service.PostService;
 import com.lengyan.lyblog.web.controller.core.BaseController;
 import cn.hutool.core.util.PageUtil;
 import cn.hutool.core.util.StrUtil;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -16,6 +18,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.annotations.ApiIgnore;
 
 import java.util.List;
 
@@ -30,6 +33,7 @@ import java.util.List;
 @Slf4j
 @Controller
 @RequestMapping(value = {"/", "index"})
+@ApiIgnore
 public class FrontIndexController extends BaseController {
 
     @Autowired

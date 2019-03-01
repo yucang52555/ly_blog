@@ -4,10 +4,13 @@ import com.lengyan.lyblog.model.dto.Archive;
 import com.lengyan.lyblog.model.dto.JsonResult;
 import com.lengyan.lyblog.model.enums.ResponseStatusEnum;
 import com.lengyan.lyblog.service.PostService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import springfox.documentation.annotations.ApiIgnore;
 
 import java.util.List;
 
@@ -21,6 +24,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/archives")
+@Api("API-文章归档控制器")
 public class ApiArchivesController {
 
     @Autowired
@@ -32,6 +36,7 @@ public class ApiArchivesController {
      * @return JsonResult
      */
     @GetMapping(value = "/year")
+    @ApiOperation(value = "根据年份归档",  notes="根据年份归档")
     public JsonResult archivesYear() {
         List<Archive> archives = postService.findPostGroupByYear();
         if (null != archives && archives.size() > 0) {
@@ -47,6 +52,7 @@ public class ApiArchivesController {
      * @return JsonResult
      */
     @GetMapping(value = "/year/month")
+    @ApiOperation(value = "根据月份归档",  notes="根据月份归档")
     public JsonResult archivesYearAndMonth() {
         List<Archive> archives = postService.findPostGroupByYearAndMonth();
         if (null != archives && archives.size() > 0) {
