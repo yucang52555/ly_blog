@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cache.CacheManager;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.util.CollectionUtils;
 
 import java.util.List;
 
@@ -24,10 +25,11 @@ public class ApplicationTests {
 	@Test
 	public void contextLoads() {
 		List<Category> list = categoryRepository.findAll();
-		System.out.println("第一次查询："+list.get(0).getCateName());
-
-		List<Category> list2 = categoryRepository.findAll();
-		System.out.println("第二次查询："+list.get(0).getCateName());
+		if (!CollectionUtils.isEmpty(list)) {
+			System.out.println("第一次查询："+list.get(0).getCateName());
+			List<Category> list2 = categoryRepository.findAll();
+			System.out.println("第二次查询："+list.get(0).getCateName());
+		}
 	}
 
 }
