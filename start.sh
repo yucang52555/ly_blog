@@ -4,6 +4,6 @@ git pull
 # 执行打包
 mvn clean package -Pprod
 
-java -server -Xms256m -Xmx512m -jar target/lyblog-latest.jar --spring.profiles.active=prod > logs/log.log 2>&1 &
+java -jar target/lyblog.jar --spring.profiles.active=prod  &
 
 echo "Lyblog部署完毕，Enjoy！"
