@@ -187,6 +187,7 @@
 
 	<build>
 		<finalName>lyblog</finalName>
+
 		<resources>
 			<resource>
 				<directory>src/main/java</directory>
@@ -195,8 +196,18 @@
 					<exclude>**/*.java</exclude>
 				</excludes>
 			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
 		</resources>
+
 		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
+
 			<!-- 跳过单元测试，不然打包的时候会因为加载不了application.yaml报错 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -214,7 +225,7 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-
+			<!--
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
@@ -233,10 +244,10 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 
 			<!-- 打包成jar文件，并指定lib文件夹以及resources资源文件夹 -->
-			<plugin>
+			<!--<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.1.0</version>
@@ -252,7 +263,7 @@
 						</manifestEntries>
 					</archive>
 				</configuration>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 </project>
