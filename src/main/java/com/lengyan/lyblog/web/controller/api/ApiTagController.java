@@ -23,7 +23,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/tags")
-@Api("API-标签控制器")
+@Api(tags = "API-标签控制器")
 public class ApiTagController {
 
     @Autowired

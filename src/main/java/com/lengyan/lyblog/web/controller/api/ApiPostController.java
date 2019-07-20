@@ -32,7 +32,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/posts")
-@Api("API-文章控制器")
+@Api(tags = "API-文章控制器")
 public class ApiPostController {
 
     @Autowired

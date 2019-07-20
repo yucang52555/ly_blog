@@ -18,6 +18,7 @@ import cn.hutool.core.util.ZipUtil;
 import cn.hutool.cron.CronUtil;
 import freemarker.template.Configuration;
 import freemarker.template.TemplateModelException;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -43,6 +44,7 @@ import java.util.Map;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin/backup")
+@Api(tags = "后台备份控制器")
 public class BackupController {
 
     @Autowired

@@ -23,7 +23,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping(value = "/api/options")
-@Api("API-系统设置控制器")
+@Api(tags = "API-系统设置控制器")
 public class ApiOptionController {
 
     @Autowired

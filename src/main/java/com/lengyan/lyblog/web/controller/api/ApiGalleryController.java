@@ -24,7 +24,7 @@ import java.util.Optional;
  */
 @RestController
 @RequestMapping(value = "/api/galleries")
-@Api("API-图库控制器")
+@Api(tags = "API-图库控制器")
 public class ApiGalleryController {
 
     @Autowired

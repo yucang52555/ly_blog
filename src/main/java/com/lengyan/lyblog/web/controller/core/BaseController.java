@@ -1,6 +1,7 @@
 package com.lengyan.lyblog.web.controller.core;
 
 import cn.hutool.core.text.StrBuilder;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * <pre>
@@ -10,6 +11,7 @@ import cn.hutool.core.text.StrBuilder;
  * @author : lengyan
  * @date : 2017/12/15
  */
+@ApiIgnore
 public abstract class BaseController {
 
     /**

@@ -16,6 +16,7 @@ import com.lengyan.lyblog.utils.CommentUtil;
 import com.lengyan.lyblog.web.controller.core.BaseController;
 import cn.hutool.core.util.PageUtil;
 import cn.hutool.core.util.StrUtil;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -35,7 +36,7 @@ import java.util.List;
  * @date : 2018/4/26
  */
 @Controller
-@ApiIgnore
+@Api(tags = "前台内置页面，自定义页面控制器")
 public class FrontPageController extends BaseController {
 
     @Autowired

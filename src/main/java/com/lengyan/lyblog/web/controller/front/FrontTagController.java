@@ -9,6 +9,7 @@ import com.lengyan.lyblog.service.TagService;
 import com.lengyan.lyblog.web.controller.core.BaseController;
 import cn.hutool.core.util.PageUtil;
 import cn.hutool.core.util.StrUtil;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -31,7 +32,7 @@ import springfox.documentation.annotations.ApiIgnore;
  */
 @Controller
 @RequestMapping(value = "/tags")
-@ApiIgnore
+@Api(tags = "前台标签控制器")
 public class FrontTagController extends BaseController {
 
     @Autowired

@@ -34,7 +34,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping(value = "categories")
-@ApiIgnore
+@Api(tags = "前台文章分类控制器")
 public class FrontCategoryController extends BaseController {
 
     @Autowired

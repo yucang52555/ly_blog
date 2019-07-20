@@ -22,6 +22,7 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.SecureUtil;
 import cn.hutool.extra.servlet.ServletUtil;
 import cn.hutool.http.HtmlUtil;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -49,6 +50,7 @@ import java.util.Random;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin")
+@Api(tags = "后台首页控制器")
 public class AdminController extends BaseController {
 
     @Autowired

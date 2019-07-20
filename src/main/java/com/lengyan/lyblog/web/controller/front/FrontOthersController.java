@@ -6,6 +6,7 @@ import com.lengyan.lyblog.model.enums.BlogPropertiesEnum;
 import com.lengyan.lyblog.model.enums.PostTypeEnum;
 import com.lengyan.lyblog.service.PostService;
 import cn.hutool.core.util.StrUtil;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -27,7 +28,7 @@ import java.util.List;
  * @date : 2018/4/26
  */
 @Controller
-@ApiIgnore
+@Api(tags = "sitemap，rss页面控制器")
 public class FrontOthersController {
 
     @Autowired

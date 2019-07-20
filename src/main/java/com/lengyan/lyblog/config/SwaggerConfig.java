@@ -23,7 +23,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
                 .apiInfo(apiInfo())
                 .select()
                 //选择controller包
-                .apis(RequestHandlerSelectors.basePackage("com.lengyan.lyblog.web.controller.api"))
+                .apis(RequestHandlerSelectors.basePackage("com.lengyan.lyblog.web.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
@@ -31,8 +31,8 @@ public class SwaggerConfig implements WebMvcConfigurer {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 //自定义信息可按需求填写
-                .title("孺子集API")
-                .description("孺子集个人博客")
+                .title("冷眼樵夫API")
+                .description("冷眼樵夫个人博客")
                 .version("1.0")
                 .build();
     }

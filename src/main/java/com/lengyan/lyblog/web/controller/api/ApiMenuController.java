@@ -22,7 +22,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/menus")
-@Api("API-菜单控制器")
+@Api(tags = "API-菜单控制器")
 public class ApiMenuController {
 
     @Autowired

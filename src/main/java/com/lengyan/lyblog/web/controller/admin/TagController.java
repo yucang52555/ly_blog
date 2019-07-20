@@ -5,6 +5,7 @@ import com.lengyan.lyblog.model.dto.JsonResult;
 import com.lengyan.lyblog.model.enums.ResultCodeEnum;
 import com.lengyan.lyblog.service.TagService;
 import com.lengyan.lyblog.utils.LocaleMessageUtil;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -22,6 +23,7 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin/tag")
+@Api(tags = "后台标签管理控制器")
 public class TagController {
 
     @Autowired

@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(value = "/api/pages")
-@Api("API-页面控制器")
+@Api(tags = "API-页面控制器")
 public class ApiPageController {
 
     @Autowired

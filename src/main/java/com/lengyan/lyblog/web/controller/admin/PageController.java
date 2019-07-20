@@ -17,6 +17,7 @@ import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.RandomUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.extra.servlet.ServletUtil;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -43,6 +44,7 @@ import java.util.Optional;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin/page")
+@Api(tags = "后台页面管理控制器")
 public class PageController {
 
     @Autowired

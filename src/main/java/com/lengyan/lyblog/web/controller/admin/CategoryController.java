@@ -5,6 +5,7 @@ import com.lengyan.lyblog.model.dto.JsonResult;
 import com.lengyan.lyblog.model.enums.ResultCodeEnum;
 import com.lengyan.lyblog.service.CategoryService;
 import com.lengyan.lyblog.utils.LocaleMessageUtil;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,6 +25,7 @@ import java.util.Optional;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin/category")
+@Api(tags = "后台分类管理控制器")
 public class CategoryController {
 
     @Autowired

@@ -21,6 +21,7 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.ZipUtil;
 import cn.hutool.extra.servlet.ServletUtil;
 import freemarker.template.Configuration;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
@@ -46,6 +47,7 @@ import java.util.List;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin/themes")
+@Api(tags = "后台主题管理控制器")
 public class ThemeController extends BaseController {
 
     private static final String NOT_FOUND_GIT = "-bash: git: command not found";

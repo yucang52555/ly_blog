@@ -23,7 +23,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/categories")
-@Api("API-文章分类API")
+@Api(tags = "API-文章分类API")
 public class ApiCategoryController {
 
     @Autowired

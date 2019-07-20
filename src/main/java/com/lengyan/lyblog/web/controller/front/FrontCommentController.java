@@ -18,6 +18,7 @@ import cn.hutool.core.util.URLUtil;
 import cn.hutool.crypto.SecureUtil;
 import cn.hutool.extra.servlet.ServletUtil;
 import cn.hutool.http.HtmlUtil;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
@@ -47,7 +48,7 @@ import java.util.Optional;
  */
 @Slf4j
 @Controller
-@ApiIgnore
+@Api(tags = "前台评论控制器")
 public class FrontCommentController {
 
     @Autowired

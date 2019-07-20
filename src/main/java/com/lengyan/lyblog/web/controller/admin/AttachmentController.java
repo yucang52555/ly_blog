@@ -13,6 +13,7 @@ import com.lengyan.lyblog.utils.LocaleMessageUtil;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.extra.servlet.ServletUtil;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import net.coobird.thumbnailator.Thumbnails;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,6 +45,7 @@ import java.util.Random;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin/attachments")
+@Api(tags = "后台附件控制器")
 public class AttachmentController {
 
     @Autowired

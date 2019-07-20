@@ -8,6 +8,7 @@ import com.lengyan.lyblog.service.UserService;
 import com.lengyan.lyblog.utils.LocaleMessageUtil;
 import cn.hutool.crypto.SecureUtil;
 import freemarker.template.Configuration;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -29,6 +30,7 @@ import javax.validation.Valid;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin/profile")
+@Api(tags = "后台用户管理控制器")
 public class UserController {
 
     @Autowired

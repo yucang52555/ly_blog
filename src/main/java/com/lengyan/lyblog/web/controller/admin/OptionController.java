@@ -6,6 +6,7 @@ import com.lengyan.lyblog.model.enums.ResultCodeEnum;
 import com.lengyan.lyblog.service.OptionsService;
 import com.lengyan.lyblog.utils.LocaleMessageUtil;
 import freemarker.template.Configuration;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,6 +25,7 @@ import java.util.Map;
 @Slf4j
 @Controller
 @RequestMapping("/admin/option")
+@Api(tags = "后台设置选项控制器")
 public class OptionController {
 
     @Autowired

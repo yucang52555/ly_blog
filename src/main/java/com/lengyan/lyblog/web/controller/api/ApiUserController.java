@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(value = "/api/user")
-@Api("API-用户控制器")
+@Api(tags = "API-用户控制器")
 public class ApiUserController {
 
     @Autowired

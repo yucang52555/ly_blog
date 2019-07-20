@@ -17,6 +17,7 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.SecureUtil;
 import cn.hutool.extra.servlet.ServletUtil;
 import cn.hutool.http.HtmlUtil;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -43,6 +44,7 @@ import java.util.Map;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin/comments")
+@Api(tags = "后台评论管理控制器")
 public class CommentController extends BaseController {
 
     @Autowired

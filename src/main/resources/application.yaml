@@ -42,6 +42,7 @@ spring:
       ddl-auto: update
     show-sql: false
   freemarker:
+    template-loader-path: classpath:/freemaker/
     allow-request-override: false
     cache: false
     check-template-location: true
@@ -62,5 +63,12 @@ spring:
   messages:
     basename: i18n/messages
 logging:
+  #配置日志文件路径
+  level:
+    com.lengyan.lyblog: debug #不同目录下的日志可配置不同级别
+    org.springfromework.web: info
+    org.hibernate: debug
+    com.zaxxer: debug
+  #采用相对路径方式将日志文件输出到【log\log.log】
   file: ./logs/log.log
 

@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import springfox.documentation.annotations.ApiIgnore;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -18,6 +19,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Slf4j
 @Controller
+@ApiIgnore
 public class CommonController implements ErrorController {
 
     private static final String ERROR_PATH = "/error";

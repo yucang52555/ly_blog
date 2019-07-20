@@ -33,7 +33,7 @@ import java.util.List;
 @Slf4j
 @Controller
 @RequestMapping(value = {"/", "index"})
-@ApiIgnore
+@Api(tags = "前台首页控制器")
 public class FrontIndexController extends BaseController {
 
     @Autowired

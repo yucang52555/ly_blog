@@ -43,7 +43,7 @@ import java.util.List;
 @Slf4j
 @Controller
 @RequestMapping(value = "/archives")
-@ApiIgnore
+@Api(tags = "前台文章归档控制器")
 public class FrontArchiveController extends BaseController {
 
     @Autowired
@@ -71,9 +71,7 @@ public class FrontArchiveController extends BaseController {
      * @return 模板路径/themes/{theme}/archives
      */
     @GetMapping(value = "page/{page}")
-    public String archives(Model model,
-                           @PathVariable(value = "page") Integer page) {
-
+    public String archives(Model model, @PathVariable(value = "page") Integer page) {
         //所有文章数据，分页，material主题适用
         Sort sort = new Sort(Sort.Direction.DESC, "postDate");
         Pageable pageable = PageRequest.of(page - 1, 5, sort);

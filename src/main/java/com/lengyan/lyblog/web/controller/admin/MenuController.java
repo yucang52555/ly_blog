@@ -2,6 +2,7 @@ package com.lengyan.lyblog.web.controller.admin;
 
 import com.lengyan.lyblog.model.domain.Menu;
 import com.lengyan.lyblog.service.MenuService;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,6 +20,7 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin/menus")
+@Api(tags = "后台菜单管理控制器")
 public class MenuController {
 
     @Autowired

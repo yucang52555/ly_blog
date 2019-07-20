@@ -20,6 +20,7 @@ import cn.hutool.core.util.RandomUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.extra.servlet.ServletUtil;
 import cn.hutool.http.HtmlUtil;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -46,6 +47,7 @@ import java.util.Optional;
 @Slf4j
 @Controller
 @RequestMapping(value = "/admin/posts")
+@Api(tags = "后台文章管理控制器")
 public class PostController extends BaseController {
 
     @Autowired

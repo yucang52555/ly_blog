@@ -24,7 +24,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/archives")
-@Api("API-文章归档控制器")
+@Api(tags = "API-文章归档控制器")
 public class ApiArchivesController {
 
     @Autowired

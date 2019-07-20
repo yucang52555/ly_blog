@@ -1,4 +1,4 @@
-<#include "module/default.ftl">
+<#include "default.ftl">
 <@default title="${post.postTitle} - ${options.blog_title?if_exists}" keywords="${options.seo_keywords?if_exists}" description="${post.postSummary?if_exists}">
 <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
@@ -37,18 +37,11 @@
         <div class="row">
 
             <!-- Post Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
-
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
                 ${post.postContent}
-
                 <hr>
 
                 <!-- 多说 Share start -->
-
-
                 <ul class="pager">
                     <#if afterPost??>
                         <li class="previous">
@@ -57,22 +50,18 @@
                         </li>
                     </#if>
                     <#if beforePost??>
-                    <li class="next">
-                        <a href="/archives/${beforePost.postUrl}" data-toggle="tooltip" data-placement="top"
-                           title="${beforePost.postTitle}">Next Post &rarr;</a>
-                    </li>
+                        <li class="next">
+                            <a href="/archives/${beforePost.postUrl}" data-toggle="tooltip" data-placement="top"
+                               title="${beforePost.postTitle}">Next Post &rarr;</a>
+                        </li>
                     </#if>
                 </ul>
 
                 <div class="comment">
-                    <#include "module/comment.ftl">
+                    <#include "comment.ftl">
                 </div>
             </div>
-            <div class="
-                col-lg-2 col-lg-offset-0
-                visible-lg-block
-                sidebar-container
-                catalog-container">
+            <div class="col-lg-2 col-lg-offset-0 visible-lg-block sidebar-container catalog-container">
                 <div class="side-catalog">
                     <hr class="hidden-sm hidden-xs">
                     <h5>
@@ -82,11 +71,7 @@
                 </div>
             </div>
             <!-- Sidebar Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 sidebar-container">
                 <!-- Featured Tags -->
                 <#if options.hux_style_sidebar_tags?default("true") == "true">
                       <section>

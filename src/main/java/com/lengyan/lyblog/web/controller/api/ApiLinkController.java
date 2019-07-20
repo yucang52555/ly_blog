@@ -22,7 +22,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/links")
-@Api("API-友情链接控制器")
+@Api(tags = "API-友情链接控制器")
 public class ApiLinkController {
 
     @Autowired
