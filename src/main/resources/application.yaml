@@ -42,7 +42,6 @@ spring:
       ddl-auto: update
     show-sql: false
   freemarker:
-    template-loader-path: classpath:/freemaker/
     allow-request-override: false
     cache: false
     check-template-location: true

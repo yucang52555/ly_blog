@@ -23,7 +23,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
                 .apiInfo(apiInfo())
                 .select()
                 //选择controller包
-                .apis(RequestHandlerSelectors.basePackage("com.lengyan.lyblog.web.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.lengyan.lyblog.web.controller.api"))
                 .paths(PathSelectors.any())
                 .build();
     }

@@ -1,4 +1,4 @@
-<#include "default.ftl">
+<#include "module/default.ftl">
 <@default title="${post.postTitle} - ${options.blog_title?if_exists}" keywords="${options.seo_keywords?if_exists}" description="${post.postSummary?if_exists}">
 <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
@@ -58,7 +58,7 @@
                 </ul>
 
                 <div class="comment">
-                    <#include "comment.ftl">
+                    <#include "module/comment.ftl">
                 </div>
             </div>
             <div class="col-lg-2 col-lg-offset-0 visible-lg-block sidebar-container catalog-container">
