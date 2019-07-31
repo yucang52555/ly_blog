@@ -129,7 +129,7 @@
                                     </#if>
                                     <#--<#if options.hux_sns_twitter??>-->
                                     <li>
-                                        <a href="http://www.ruzishici.top/">
+                                        <a href="http://www.lyqiaofu.top/">
                                             <span class="fa-stack fa-lg">
                                                 <i class="fa fa-circle fa-stack-2x"></i>
                                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
