@@ -41,7 +41,7 @@
                                             <td><@spring.message code='admin.pages.links' /></td>
                                             <td>/links</td>
                                             <td>
-                                                <a href="/links" class="btn btn-info btn-xs " target="_blank"><@spring.message code='common.btn.view' /></a>
+                                                <a href="/admin/page/links" class="btn btn-info btn-xs " target="_blank"><@spring.message code='common.btn.view' /></a>
                                                 <a data-pjax="true" href="/admin/page/links" class="btn btn-primary btn-xs "><@spring.message code='common.btn.edit' /></a>
                                             </td>
                                         </tr>
@@ -49,7 +49,7 @@
                                             <td><@spring.message code='admin.pages.gallery' /></td>
                                             <td>/gallery</td>
                                             <td>
-                                                <a href="/gallery" class="btn btn-info btn-xs " target="_blank"><@spring.message code='common.btn.view' /></a>
+                                                <a href="/admin/page/galleries" class="btn btn-info btn-xs " target="_blank"><@spring.message code='common.btn.view' /></a>
                                                 <a data-pjax="true" href="/admin/page/galleries" class="btn btn-primary btn-xs "><@spring.message code='common.btn.edit' /></a>
                                             </td>
                                         </tr>

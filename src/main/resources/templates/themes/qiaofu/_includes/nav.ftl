@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="${options.blog_url}/">${options.blog_title?if_exists}</a>
+            <a class="navbar-brand" href="${options.blog_url}">${options.blog_title?if_exists}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

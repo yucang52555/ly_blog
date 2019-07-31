@@ -1,9 +1,6 @@
 package com.lengyan.lyblog.config;
 
-import com.lengyan.lyblog.web.interceptor.ApiInterceptor;
-import com.lengyan.lyblog.web.interceptor.InstallInterceptor;
-import com.lengyan.lyblog.web.interceptor.LocaleInterceptor;
-import com.lengyan.lyblog.web.interceptor.LoginInterceptor;
+import com.lengyan.lyblog.web.interceptor.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -44,6 +41,9 @@ public class MvcConfig implements WebMvcConfigurer {
     @Autowired
     private LocaleInterceptor localeInterceptor;
 
+//    @Autowired
+//    private FreeMarkerInterceptor freeMarkerInterceptor;
+
     /**
      * 注册拦截器
      *
@@ -69,6 +69,14 @@ public class MvcConfig implements WebMvcConfigurer {
                 .addPathPatterns("/install");
         registry.addInterceptor(localeChangeInterceptor())
                 .addPathPatterns("/install");
+//        registry.addInterceptor(freeMarkerInterceptor)
+//                .addPathPatterns("/**")
+//                .excludePathPatterns("/install")
+//                .excludePathPatterns("/error")
+//                .excludePathPatterns("/sw.js")
+//                .excludePathPatterns("/install/do")
+//                .excludePathPatterns("/qiaofu/**")
+//                .excludePathPatterns("/static/**");
     }
 
     /**

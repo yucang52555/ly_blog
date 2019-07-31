@@ -31,12 +31,12 @@ spring:
     username: root
     password: ENC(g0m9sjWJzpj7tMHc43UqF04RqO+c25oh)
 
-  h2:
-    console:
-      settings:
-        web-allow-others: true
-      path: /h2-console
-      enabled: true
+#  h2:
+#    console:
+#      settings:
+#        web-allow-others: true
+#      path: /h2-console
+#      enabled: true
   jpa:
     hibernate:
       ddl-auto: update

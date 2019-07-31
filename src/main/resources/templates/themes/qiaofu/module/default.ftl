@@ -1,4 +1,4 @@
-<#include "../../../common/macro/common_macro.ftl">
+<#include "../_includes/common_macro.ftl">
 <#macro default title="" keywords="" description="">
 <!DOCTYPE html>
 <html lang="zh-CN">

@@ -19,7 +19,7 @@
         <a target="_blank" href="#">
             <#-- 不允许修改该主题信息，也不能删除。 -->
             <span>Designed by </span>
-            <a href="http://blog.ruzishici.top/">qiaofu</a>
+            <a href="http://blog.lyqiaofu.top/">qiaofu</a>
             <#-- 虽然Lyblog使用了宽松的GPL协议，但开发不易，希望您可以保留一下版权声明。笔芯~ -->
             <div class="by_lyblog">
                 <a href="https://github.com/yucang52555/lyblog.git" target="_blank">Proudly published with Lyblog&#65281;</a>
