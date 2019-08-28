@@ -19,7 +19,7 @@
     <link href="/anatole/source/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
     <link rel="stylesheet" href="/anatole/source/css/blog_basic.min.css?version=88107691fe">
     <link href="/anatole/source/css/style.min.css" type="text/css" rel="stylesheet" />
-    <link rel="alternate" type="application/rss+xml" title="atom 1.0" href="/feed.xml">
+    <!--<link rel="alternate" type="application/rss+xml" title="atom 1.0" href="/feed.xml">-->
     <!-- 百度统计 -->
     <script>
         var _hmt = _hmt || [];

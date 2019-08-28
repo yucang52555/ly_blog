@@ -4,16 +4,16 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
-                    <#if options.hux_sns_rss?default("true")=="true">
-                    <li>
-                        <a href="/feed.xml">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    </#if>
+                    <!--<#if options.hux_sns_rss?default("true")=="true">-->
+                    <!--<li>-->
+                        <!--<a href="/feed.xml">-->
+                            <!--<span class="fa-stack fa-lg">-->
+                                <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+                                <!--<i class="fa fa-rss fa-stack-1x fa-inverse"></i>-->
+                            <!--</span>-->
+                        <!--</a>-->
+                    <!--</li>-->
+                    <!--</#if>-->
                     <#if options.hux_sns_twitter??>
                     <li>
                         <a href="https://twitter.com/${options.hux_sns_twitter}">
@@ -69,8 +69,8 @@
                 <p class="copyright text-muted">
                     Copyright &copy; ${options.blog_title} ${options.blog_start?substring(0,4)}
                     <br>
-                    Theme by <a href="http://huangxuan.me">Hux</a> |
-                    Published with <a href="https://github.com/ruibaby/halo" target="_blank">Halo</a><br>
+                    <!--Theme by <a href="http://huangxuan.me">Hux</a> |
+                    Published with <a href="https://github.com/ruibaby/halo" target="_blank">Halo</a><br>-->
                     <@footer_info></@footer_info>
                 </p>
             </div>

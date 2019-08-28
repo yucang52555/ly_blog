@@ -47,8 +47,6 @@
                 <hr>
 
                 <!-- 多说 Share start -->
-
-
                 <ul class="pager">
                     <#if afterPost??>
                         <li class="previous">

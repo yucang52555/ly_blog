@@ -117,7 +117,7 @@
                                 <p>${user.userDesc?if_exists}</p>
                                 <!-- SNS Link -->
                                 <ul class="list-inline">
-                                    <#if options.hux_sns_rss?default("true")=="true">
+                                    <!--<#if options.hux_sns_rss?default("true")=="true">
                                     <li>
                                         <a href="/feed.xml">
                                             <span class="fa-stack fa-lg">
@@ -126,7 +126,7 @@
                                             </span>
                                         </a>
                                     </li>
-                                    </#if>
+                                    </#if>-->
                                     <#--<#if options.hux_sns_twitter??>-->
                                     <li>
                                         <a href="http://www.lyqiaofu.top/">

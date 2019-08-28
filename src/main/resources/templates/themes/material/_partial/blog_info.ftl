@@ -65,11 +65,11 @@
             <% } %>
             -->
 
-            <a class="index_share-link" href="/feed.xml">
-                <li class="mdl-menu__item mdl-js-ripple-effect">
-                    RSS订阅
-                </li>
-            </a>
+            <!--<a class="index_share-link" href="/feed.xml">-->
+                <!--<li class="mdl-menu__item mdl-js-ripple-effect">-->
+                    <!--RSS订阅-->
+                <!--</li>-->
+            <!--</a>-->
 
             <#if options.theme_material_sns_share_weibo?if_exists=='true'>
             <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=<%= page.title %>&url=<%= config.url + url_for(path) %>&pic=<%- config.url + theme.head.favicon %>&searchPic=false&style=simple" target="_blank">
