@@ -94,7 +94,7 @@
                 <!-- Friends Blog -->
                 <#if options.hux_style_sidebar_links?default("true") == "true">
                     <hr>
-                    <h5>FRIENDS</h5>
+                    <h5>友情链接：</h5>
                     <ul class="list-inline">
                         <@commonTag method="links">
                             <#if links?? && links?size gt 0>
