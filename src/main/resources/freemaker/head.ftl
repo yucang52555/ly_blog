@@ -44,15 +44,19 @@
     <script></script>
     <!-- 百度统计 -->
     <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?e64569433bee54682cc5895467f0b9e4";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?fcaded1f4d1c0294b4a9ef12843c9f37";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
     </script>
+
     <!-- google 广告-->
+    <!--
+    <script data-ad-client="ca-pub-6488119633221249" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    -->
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({

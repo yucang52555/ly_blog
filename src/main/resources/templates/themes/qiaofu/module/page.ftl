@@ -25,12 +25,9 @@
                     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
                         <#nested>
                     </div>
-                    <!-- Sidebar Container -->
-                    <div class="
-                        col-lg-8 col-lg-offset-2
-                        col-md-10 col-md-offset-1
-                        sidebar-container">
 
+                    <!-- Sidebar Container -->
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 sidebar-container">
                         <!-- Featured Tags -->
                         <#if options.hux_style_sidebar_tags?default("true") == "true">
                         <section>
@@ -89,6 +86,17 @@
                         col-xs-12
                         sidebar-container
                     ">
+
+                        <section>
+                            <hr class="hidden-sm hidden-xs">
+                            <h5>搜索一下</a></h5>
+                            <div >
+                                <script async src="https://cse.google.com/cse.js?cx=017897583347886907443:gts3do3tr08"></script>
+                                <div class="gcse-search"></div>
+                            </div>
+                        </section>
+
+
                         <!-- Featured Tags -->
                         <#if options.hux_style_sidebar_tags?default("true") == "true">
                         <section>
