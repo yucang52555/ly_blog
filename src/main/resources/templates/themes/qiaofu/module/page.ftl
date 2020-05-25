@@ -32,7 +32,8 @@
                         <#if options.hux_style_sidebar_tags?default("true") == "true">
                         <section>
                             <!-- no hr -->
-                            <h5><a href="/tags">FEATURED TAGS</a></h5>
+                            <!-- <h5><a href="/tags">FEATURED TAGS</a></h5> -->
+                            <h5><a href="/tags">标签</a></h5>
                             <div class="tags">
                                 <@commonTag method="tags">
                                     <#if tags?? && tags?size gt 0>
