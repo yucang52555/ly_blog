@@ -231,7 +231,7 @@ public class PostServiceImpl implements PostService {
     @Override
     @Cacheable(value = POSTS_CACHE_NAME, key = "'posts_latest'")
     public List<Post> findPostLatest() {
-        return postRepository.findTopFive();
+        return postRepository.findTopEight();
     }
 
     /**
