@@ -140,7 +140,7 @@ public interface PostService {
     Post findByPostUrl(String postUrl, String postType);
 
     /**
-     * 查询前五条数据
+     * 查询前8条数据
      *
      * @return List
      */

@@ -27,8 +27,8 @@ public interface PostRepository extends JpaRepository<Post, Long> {
      *
      * @return List
      */
-    @Query(value = "SELECT * FROM lyblog_post where post_type='post' ORDER BY post_date DESC LIMIT 5", nativeQuery = true)
-    List<Post> findTopFive();
+    @Query(value = "SELECT * FROM lyblog_post where post_type='post' ORDER BY post_date DESC LIMIT 8", nativeQuery = true)
+    List<Post> findTopEight();
 
     /**
      * 查询所有文章 根据文章类型
