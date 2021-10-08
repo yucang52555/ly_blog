@@ -22,7 +22,7 @@ spring:
     #MySql配置
 #    driver-class-name: com.mysql.jdbc.Driver
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.244.9.82:3306/ly_blog?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://81.68.228.150:3306/ly_blog?characterEncoding=utf8&useSSL=false
     username: root
     password: hongfeng123456
 
