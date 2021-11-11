@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="footer">
-                        <span>Copyright © 2018</span>
+                        <span>Copyright © 2021</span>
                         <a href="${options.blog_url}">${options.blog_title?default('Lyblog')}</a>
                         <span style="float: right">
                                 Background image from <a href="https://cn.bing.com/" target="_blank">Bing</a>.

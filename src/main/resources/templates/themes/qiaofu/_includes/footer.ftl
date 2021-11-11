@@ -3,75 +3,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <!--<#if options.hux_sns_rss?default("true")=="true">-->
-                    <!--<li>-->
-                        <!--<a href="/feed.xml">-->
-                            <!--<span class="fa-stack fa-lg">-->
-                                <!--<i class="fa fa-circle fa-stack-2x"></i>-->
-                                <!--<i class="fa fa-rss fa-stack-1x fa-inverse"></i>-->
-                            <!--</span>-->
-                        <!--</a>-->
-                    <!--</li>-->
-                    <!--</#if>-->
-                    <#if options.hux_sns_twitter??>
-                    <li>
-                        <a href="https://twitter.com/${options.hux_sns_twitter}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    </#if>
-                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
-                    <#if options.hux_sns_zhihu??>
-                    <li>
-                        <a target="_blank" href="https://www.zhihu.com/people/${options.hux_sns_zhihu}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa  fa-stack-1x fa-inverse">知</i>
-                            </span>
-                        </a>
-                    </li>
-                    </#if>
-                    <#if options.hux_sns_weibo??>
-                    <li>
-                        <a target="_blank" href="http://weibo.com/${options.hux_sns_weibo}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    </#if>
-                    <#if options.hux_sns_facebook??>
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/${options.hux_sns_facebook}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    </#if>
-                    <#if options.hux_sns_github??>
-                    <li>
-                        <a target="_blank" href="https://github.com/${options.hux_sns_github}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    </#if>
-                </ul>
                 <p class="copyright text-muted">
+                    <@footer_info></@footer_info><br>
+                    备案号:<a href="https://beian.miit.gov.cn" target="_blank">粤ICP备2021142221号</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
                     Copyright &copy; ${options.blog_title} ${options.blog_start?substring(0,4)}
-                    <br>
-                    <!--Theme by <a href="http://huangxuan.me">Hux</a> |
-                    Published with <a href="https://github.com/ruibaby/halo" target="_blank">Halo</a><br>-->
-                    <@footer_info></@footer_info>
+                    <!-- Theme by <a href="http://huangxuan.me">Hux</a> |
+                    Published with <a href="https://github.com/ruibaby/halo" target="_blank">Halo</a><br>
+                     -->
                 </p>
             </div>
         </div>
